@@ -55,8 +55,23 @@ section p {
   line-height: 28px;
 }
 
-footer  {
+footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 190px;
+  margin-bottom: 20px;
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #00BFA6;
+} 
+
+footer p {
+  line-height: 28px;
   align-items: center;
   justify-content: center;
 }
@@ -65,18 +80,4 @@ footer  {
   position: fixed;
   left: 20px;
   bottom: 20px;
-}
-
-#line {
-  width: 568px;
-  height: 0px;
-  border: 1px solid #00BFA6;
-  margin: 0 auto 24px;
-} 
-
-footer p {
-  position: absolute;
-  line-height: 28px;
-  align-items: center;
-  justify-content: center;
 }
